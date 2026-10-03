@@ -2,13 +2,7 @@ markdown
 # WannnSion Scanner
 
 A simple and fast port scanner built with Python. Uses multithreading to scan ports quickly, detects common services, and grabs banners from open ports.
-
-| | / /___ _____ ____ / /()_ ____
-| | /| / / __ `/ __ / __ \ __ / / __ / __
-| |/ |/ / // / / / / / / / / / / // / / / /
-|/|__/_,// /// // ///_// /_/
-
-
+	
 ## Features
 
 - Fast multithreaded scanning
