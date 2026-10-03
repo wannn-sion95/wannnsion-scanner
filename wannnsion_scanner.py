@@ -1,3 +1,20 @@
+CYAN = "\033[96m"
+RESET = "\033[0m"
+
+BANNER = CYAN + r"""
+ _       __                    _____ _           
+| |     / /___ _____  ____     / ___/(_)___  ____ 
+| | /| / / __ `/ __ \/ __ \    \__ \/ / __ \/ __ \
+| |/ |/ / /_/ / / / / / / /   ___/ / / /_/ / / / /
+|__/|__/\__,_/_/ /_/_/ /_/   /____/_/\____/_/ /_/
+
+        WannnSion Scanner v1.0 | by Wannn Sion
+""" + RESET
+print(BANNER)
+
+
+
+
 import socket, argparse
 from concurrent.futures import ThreadPoolExecutor
 
